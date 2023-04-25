@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="opgGrc" name="SideStationV5" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="NDYmLr" name="SideStationV5">
+    <GROUP id="{8BE8EEA3-9204-BFD1-3912-C75899EBF968}" name="Source">
+      <FILE id="WWat16" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="jEODTF" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="J9zyaX" name="Tab1_Timeline.h" compile="0" resource="0" file="Source/Tab1_Timeline.h"/>
+      <FILE id="qvXHfs" name="Tab2_Synth.h" compile="0" resource="0" file="Source/Tab2_Synth.h"/>
+      <FILE id="mx4io2" name="interpolation.h" compile="0" resource="0" file="Source/interpolation.h"/>
+      <FILE id="S74b4O" name="spline.h" compile="0" resource="0" file="Source/spline.h"/>
+      <FILE id="AQcPuk" name="modBufferCompiler.h" compile="0" resource="0"
+            file="Source/modBufferCompiler.h"/>
+      <FILE id="xwbVRc" name="bufferCompiler.h" compile="0" resource="0"
+            file="Source/bufferCompiler.h"/>
+      <FILE id="cYk9NU" name="synthAudioSource.h" compile="0" resource="0"
+            file="Source/synthAudioSource.h"/>
+      <FILE id="bFG3X9" name="background.h" compile="0" resource="0" file="Source/background.h"/>
+      <FILE id="k2J7F6" name="parameters.h" compile="0" resource="0" file="Source/parameters.h"/>
+      <FILE id="gZpuHy" name="dspProcess.h" compile="0" resource="0" file="Source/dspProcess.h"/>
+      <FILE id="ylTwxZ" name="global.h" compile="0" resource="0" file="Source/global.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SideStationV3"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SideStationV3"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../modules"/>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
