@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="urHBYa" name="PongApp" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="hpTDcn" name="PongApp">
+    <GROUP id="{69976273-23CC-FBBF-7CE7-5B91449CBCC0}" name="Source">
+      <FILE id="snBKYe" name="ball.h" compile="0" resource="0" file="Source/ball.h"/>
+      <FILE id="bj6k2R" name="gameManager.h" compile="0" resource="0" file="Source/gameManager.h"/>
+      <FILE id="mUWNWS" name="input.h" compile="0" resource="0" file="Source/input.h"
+            xcodeResource="0"/>
+      <FILE id="JEa4ds" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="lmdbFK" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="e1Kxsu" name="movable.h" compile="0" resource="0" file="Source/movable.h"/>
+      <FILE id="wtFej4" name="paddle.h" compile="0" resource="0" file="Source/paddle.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PongApp"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PongApp"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
